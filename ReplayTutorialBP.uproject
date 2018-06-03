@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{8BAA34B3-463A-B99A-2A2E-44B31E014453}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ReplayTutorialBP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
